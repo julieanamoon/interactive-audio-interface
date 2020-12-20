@@ -7,21 +7,10 @@
 #### Overall design layout was inspired by depicting the genre.
 #### Photo taken by Julieana Moon
 ---
-
-
-
->
->
->
->
->
-
-
-
-
-
-
-
+#### User is able to see current song playing
+#### User is able to play/pause current song
+#### User is able to proceed to next song 
+#### User is able to proceed to previous song 
 ---
 >  **
 >
