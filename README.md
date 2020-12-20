@@ -3,7 +3,7 @@
 ##### By: Julieana Moon 101254440
 
 ---
-#### A interactive audio interface that focuses on darkwave/synthwave/witchhouse/liquid/bass music. 
+#### A interactive audio interface that focuses on darkwave/synthwave/witchhouse/liquid/bass music, 5 different songs. 
 #### Overall design layout was inspired by depicting the genre.
 #### Photo taken by Julieana Moon
 ---
@@ -11,6 +11,7 @@
 #### User is able to play/pause current song
 #### User is able to proceed to next song 
 #### User is able to proceed to previous song 
+#### User is able to control volume of current song
 ---
 >  **
 >
