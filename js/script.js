@@ -54,7 +54,7 @@ play.addEventListener(`click`, pressingPlay)
 
 // NEXT SONG -----------------------------------------
 let pressedNext = function() {
-	whichSongAmIOn = whichSongAmIOn + 1
+	whichSongAmIOn = whichSongAmIOn + 1 //indication of where you are within song array
 	playSong(whichSongAmIOn)
 }
 
@@ -65,7 +65,7 @@ next.addEventListener(`click`, pressedNext)
 // PREVIOUS SONG -----------------------------------------
 
 let pressedPrev = function() {
-    whichSongAmIOn = whichSongAmIOn - 1
+    whichSongAmIOn = whichSongAmIOn - 1 //indication of where you are within song array
     playSong(whichSongAmIOn)
 }
 let prev = document.querySelector(`#prev`)
