@@ -1,4 +1,5 @@
-// ARRAY PLAYLIST  ----------------------------
+// ARRAY PLAYLIST  ---------------------------- 
+// create an audio element
 let playlist = [
   {src:'audio/hidden jayeem - Without You.mp3', title:"Without You", artist:"jayeem"},  // 0
   {src:'audio/Skeler - My Fight.mp3', title:"My Fight", artist:"Skeler"},  // 1
@@ -33,16 +34,16 @@ playSong(0)
 
 
 
-// PLAY SONG ----------------------------------------------
+// PLAY SONG & PAUSE SONG -------------------------------------------
 let pressingPlay = function() {
-	if (currentPlay) {
+	if (currentPlay) { 
 		audio.pause()
-		currentPlay = false 
+		currentPlay = false //if its playing, pause it
 		play.textContent = `▶`
     } 
     else {
 		audio.play()
-		currentPlay = true
+		currentPlay = true //if the music is not playing, play it
 		play.textContent = `❚❚`
 	}
 }
